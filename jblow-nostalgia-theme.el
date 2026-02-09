@@ -70,7 +70,9 @@
    `(font-lock-keyword-face           ((t (:foreground ,keywords))))
    `(font-lock-type-face              ((t (:foreground ,type))))
    `(font-lock-constant-face          ((t (:foreground ,constants))))
+   `(font-lock-property-use-face      ((t (:foreground ,text))))
    `(font-lock-variable-name-face     ((t (:foreground ,variables))))
+   `(font-lock-variable-use-face      ((t (:foreground ,text))))
    `(font-lock-builtin-face           ((t (:foreground ,builtin))))
    `(font-lock-string-face            ((t (:foreground ,strings))))
    `(font-lock-comment-face           ((t (:foreground ,comments))))
@@ -78,6 +80,7 @@
    `(font-lock-doc-face               ((t (:foreground ,comments))))
    `(font-lock-function-name-face     ((t (:foreground ,functions))))
    `(font-lock-doc-string-face        ((t (:foreground ,strings))))
+   `(font-lock-function-call-face     ((t (:foreground ,text))))
    `(font-lock-preprocessor-face      ((t (:foreground ,macros))))
    `(font-lock-warning-face           ((t (:foreground ,warning))))
 
